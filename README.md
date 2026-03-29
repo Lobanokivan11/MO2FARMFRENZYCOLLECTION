@@ -10,3 +10,6 @@ unpacked data example:
 
 🟥 = wrong
 🟩 = right
+
+🟥 = game.exe Data/data.pack
+🟥 = game.exe Data/data/
