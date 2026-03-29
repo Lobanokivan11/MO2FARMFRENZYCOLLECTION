@@ -15,4 +15,4 @@ unpacked data example:
 
 🟥 = ```game.exe Data/data/<Any unpacked files>```
 
-🟩 = ```game.exe Data/<Any unpacked files excluding *.data>
+🟩 = ```game.exe Data/<Any unpacked files excluding *.data>```
