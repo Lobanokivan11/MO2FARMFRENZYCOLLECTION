@@ -11,5 +11,8 @@ unpacked data example:
 🟥 = wrong
 🟩 = right
 
-🟥 = game.exe Data/data.pack
-🟥 = game.exe Data/data/
+🟥 = ```game.exe Data/data.pack```
+
+🟥 = ```game.exe Data/data/<Any unpacked files>```
+
+🟩 = ```game.exe Data/<Any unpacked files excluding *.data>
