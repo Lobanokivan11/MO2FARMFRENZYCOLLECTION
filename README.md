@@ -3,3 +3,10 @@
 ## how to install
 
 place all py files to ```<Any MO2 Folder>/plugins/basic_games/games/```
+
+# you need to unpack unpack all data archives to data submobule
+
+unpacked data example:
+
+🟥 = wrong
+🟩 = right
