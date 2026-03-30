@@ -1,9 +1,4 @@
 from ..basic_game import BasicGame
-import mobase
-try:
-    from PyQt5.QtCore import QDir, QFileInfo
-except ImportError:
-    from qt6.QtCore import QDir, QFileInfo
 
 
 class farmfrenzy3arcticaGame(BasicGame):
@@ -12,22 +7,6 @@ class farmfrenzy3arcticaGame(BasicGame):
     Version = "1.0.0"
 
     GameName = "Farm Frenzy 3 Ice Age"
-    GameShortName = "FarmFrenzy3IceAge"
+    GameShortName = "Farm Frenzy 3 Ice Age"
     GameBinary = "FarmFrenzy3_Arctica.exe"
-    GameDataPath = "Data"
-    def init(self, organizer: mobase.IOrganizer):
-        return super().init(organizer)
-
-    def binaryName(self):
-        return self.GameBinary
-
-    def executables(self):
-        return [
-            mobase.ExecutableInfo(
-                self.GameName,
-                QFileInfo(self.gameDirectory().absoluteFilePath(self.GameBinary))
-            )
-        ]
-
-    def savesDirectory(self):
-        return QDir("C:/ProgramData/Farm Frenzy 3 Ice Age")
+    GameDataPath = ""
