@@ -7,6 +7,8 @@ class farmfrenzyancientromeGame(BasicGame):
     Version = "1.0.0"
 
     GameName = "Farm Frenzy Ancient Rome"
-    GameShortName = "Farm Frenzy Ancient Rome"
+    GameShortName = "FarmFrenzyAncientRome"
     GameBinary = "FarmFrenzyAncientRome.exe"
-    GameDataPath = ""
+    GameDataPath = "Data"
+    def savesDirectory(self):
+        return qt6.QtCore.QDir("C:/ProgramData/Farm Frenzy Ancient Rome")

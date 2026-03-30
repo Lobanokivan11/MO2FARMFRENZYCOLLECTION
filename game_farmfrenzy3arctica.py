@@ -7,6 +7,8 @@ class farmfrenzy3arcticaGame(BasicGame):
     Version = "1.0.0"
 
     GameName = "Farm Frenzy 3 Ice Age"
-    GameShortName = "Farm Frenzy 3 Ice Age"
+    GameShortName = "FarmFrenzy3IceAge"
     GameBinary = "FarmFrenzy3_Arctica.exe"
-    GameDataPath = ""
+    GameDataPath = "Data"
+    def savesDirectory(self):
+        return qt6.QtCore.QDir("C:/ProgramData/Farm Frenzy 3 Ice Age")

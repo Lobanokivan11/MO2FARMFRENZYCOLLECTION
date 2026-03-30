@@ -7,6 +7,8 @@ class farmfrenzyvikingheroesGame(BasicGame):
     Version = "1.0.0"
 
     GameName = "Farm Frenzy Viking Heroes"
-    GameShortName = "Farm Frenzy Viking Heroes"
+    GameShortName = "FarmFrenzyVikingHeroes"
     GameBinary = "FarmFrenzyVikings.exe"
-    GameDataPath = ""
+    GameDataPath = "Data"
+    def savesDirectory(self):
+        return qt6.QtCore.QDir("C:/ProgramData/Farm Frenzy Viking Heroes")
