@@ -1,6 +1,10 @@
 from ..basic_game import BasicGame
 import mobase
-import qt6.QtCore
+try:
+    from PyQt5.QtCore import QDir, QFileInfo
+except ImportError:
+    from qt6.QtCore import QDir, QFileInfo
+
 
 class farmfrenzy3americaGame(BasicGame):
     Name = "Farm Frenzy 3 American Pie Support Plugin"
@@ -21,9 +25,9 @@ class farmfrenzy3americaGame(BasicGame):
         return [
             mobase.ExecutableInfo(
                 self.GameName,
-                qt6.QtCore.QFileInfo(self.gameDirectory().absoluteFilePath(self.GameBinary))
+                QFileInfo(self.gameDirectory().absoluteFilePath(self.GameBinary))
             )
         ]
 
     def savesDirectory(self):
-        return qt6.QtCore.QDir("C:/ProgramData/Farm Frenzy 3 American Pie")
+        return QDir("C:/ProgramData/Farm Frenzy 3 American Pie")
