@@ -9,4 +9,4 @@ class farmfrenzyvikingheroesGame(BasicGame):
     GameName = "Farm Frenzy Viking Heroes"
     GameShortName = "Farm Frenzy Viking Heroes"
     GameBinary = "FarmFrenzyVikings.exe"
-    GameDataPath = ""
+    GameDataPath = "Data"

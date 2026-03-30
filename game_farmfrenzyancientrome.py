@@ -9,4 +9,4 @@ class farmfrenzyancientromeGame(BasicGame):
     GameName = "Farm Frenzy Ancient Rome"
     GameShortName = "Farm Frenzy Ancient Rome"
     GameBinary = "FarmFrenzyAncientRome.exe"
-    GameDataPath = ""
+    GameDataPath = "Data"

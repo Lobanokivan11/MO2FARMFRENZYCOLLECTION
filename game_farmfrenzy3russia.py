@@ -9,4 +9,4 @@ class farmfrenzy3russiaGame(BasicGame):
     GameName = "Farm Frenzy 3 Russian Roullete"
     GameShortName = "Farm Frenzy 3 Russian Roullete"
     GameBinary = "FarmFrenzy3_Russia.exe"
-    GameDataPath = ""
+    GameDataPath = "Data"

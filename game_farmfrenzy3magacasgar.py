@@ -9,4 +9,4 @@ class farmfrenzy3magacasgarGame(BasicGame):
     GameName = "Farm Frenzy 3 Madagascar"
     GameShortName = "Farm Frenzy 3 Madagascar"
     GameBinary = "FarmFrenzy3_Madagascar.exe"
-    GameDataPath = ""
+    GameDataPath = "Data"

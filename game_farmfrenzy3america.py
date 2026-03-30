@@ -9,4 +9,4 @@ class farmfrenzy3americaGame(BasicGame):
     GameName = "Farm Frenzy 3 American Pie"
     GameShortName = "Farm Frenzy 3 American Pie"
     GameBinary = "FarmFrenzy3_America.exe"
-    GameDataPath = ""
+    GameDataPath = "Data"

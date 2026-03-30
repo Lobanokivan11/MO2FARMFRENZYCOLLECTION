@@ -9,4 +9,4 @@ class farmfrenzy3arcticaGame(BasicGame):
     GameName = "Farm Frenzy 3 Ice Age"
     GameShortName = "Farm Frenzy 3 Ice Age"
     GameBinary = "FarmFrenzy3_Arctica.exe"
-    GameDataPath = ""
+    GameDataPath = "Data"
