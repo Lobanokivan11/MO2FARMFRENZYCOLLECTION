@@ -1,6 +1,6 @@
 from ..basic_game import BasicGame
 import qt6.QtCore
-from mobase import ExecutableInfo
+import mobase
 
 class farmfrenzy3arcticaGame(BasicGame):
     Name = "Farm Frenzy 3 Ice Age Support Plugin"
@@ -13,9 +13,14 @@ class farmfrenzy3arcticaGame(BasicGame):
     GameDataPath = "Data"
     def savesDirectory(self):
         return qt6.QtCore.QDir("C:/ProgramData/Farm Frenzy 3 Ice Age")
+    def init(self, organizer: mobase.IOrganizer):
+        return super().init(organizer)
     def executables(self):
         return [
-            ExecutableInfo(self.GameName, qt6.QtCore.QFileInfo(self.binaryName()))
+            mobase.ExecutableInfo(
+                self.GameName,
+                qt6.QtCore.QFileInfo(self.gameDirectory().absoluteFilePath(self.GameBinary))
+            )
         ]
     def binaryName(self):
         return self.GameBinary
