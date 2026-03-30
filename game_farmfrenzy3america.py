@@ -1,6 +1,6 @@
 from ..basic_game import BasicGame
-import qt6.QtCore
 import mobase
+import qt6.QtCore
 
 class farmfrenzy3americaGame(BasicGame):
     Name = "Farm Frenzy 3 American Pie Support Plugin"
@@ -10,11 +10,13 @@ class farmfrenzy3americaGame(BasicGame):
     GameName = "Farm Frenzy 3 American Pie"
     GameShortName = "FarmFrenzy3AmericanPie"
     GameBinary = "FarmFrenzy3_America.exe"
-    GameDataPath = ""
-    def savesDirectory(self):
-        return qt6.QtCore.QDir("C:/ProgramData/Farm Frenzy 3 American Pie")
+    GameDataPath = "Data"
     def init(self, organizer: mobase.IOrganizer):
         return super().init(organizer)
+
+    def binaryName(self):
+        return self.GameBinary
+
     def executables(self):
         return [
             mobase.ExecutableInfo(
@@ -22,5 +24,6 @@ class farmfrenzy3americaGame(BasicGame):
                 qt6.QtCore.QFileInfo(self.gameDirectory().absoluteFilePath(self.GameBinary))
             )
         ]
-    def binaryName(self):
-        return self.GameBinary
+
+    def savesDirectory(self):
+        return qt6.QtCore.QDir("C:/ProgramData/Farm Frenzy 3 American Pie")
