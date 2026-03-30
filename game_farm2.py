@@ -10,7 +10,7 @@ class farm2Game(BasicGame):
     GameName = "Farm Frenzy 2"
     GameShortName = "FarmFrenzy2"
     GameBinary = "farm2.exe"
-    GameDataPath = "Data"
+    GameDataPath = ""
     def savesDirectory(self):
         return qt6.QtCore.QDir("C:/ProgramData/Farm Frenzy 2")
     def init(self, organizer: mobase.IOrganizer):

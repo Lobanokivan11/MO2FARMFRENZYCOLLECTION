@@ -10,7 +10,7 @@ class farmfrenzy3arcticaGame(BasicGame):
     GameName = "Farm Frenzy 3 Ice Age"
     GameShortName = "FarmFrenzy3IceAge"
     GameBinary = "FarmFrenzy3_Arctica.exe"
-    GameDataPath = "Data"
+    GameDataPath = ""
     def savesDirectory(self):
         return qt6.QtCore.QDir("C:/ProgramData/Farm Frenzy 3 Ice Age")
     def init(self, organizer: mobase.IOrganizer):

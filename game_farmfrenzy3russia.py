@@ -10,7 +10,7 @@ class farmfrenzy3russiaGame(BasicGame):
     GameName = "Farm Frenzy 3 Russian Roullete"
     GameShortName = "FarmFrenzy3RussianRoullete"
     GameBinary = "FarmFrenzy3_Russia.exe"
-    GameDataPath = "Data"
+    GameDataPath = ""
     def savesDirectory(self):
         return qt6.QtCore.QDir("C:/ProgramData/Farm Frenzy 3 Russian Roullete")
     def init(self, organizer: mobase.IOrganizer):

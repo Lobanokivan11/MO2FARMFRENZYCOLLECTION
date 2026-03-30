@@ -10,7 +10,7 @@ class farmfrenzy3magacasgarGame(BasicGame):
     GameName = "Farm Frenzy 3 Madagascar"
     GameShortName = "FarmFrenzy3Madagascar"
     GameBinary = "FarmFrenzy3_Madagascar.exe"
-    GameDataPath = "Data"
+    GameDataPath = ""
     def savesDirectory(self):
         return qt6.QtCore.QDir("C:/ProgramData/Farm Frenzy 3 Madagascar")
     def init(self, organizer: mobase.IOrganizer):
