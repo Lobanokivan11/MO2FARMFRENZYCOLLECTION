@@ -1,5 +1,5 @@
 from ..basic_game import BasicGame
-
+import qt6.QtCore
 
 class farmfrenzy3arcticaGame(BasicGame):
     Name = "Farm Frenzy 3 Ice Age Support Plugin"

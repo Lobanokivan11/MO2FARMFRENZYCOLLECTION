@@ -1,5 +1,5 @@
 from ..basic_game import BasicGame
-
+import qt6.QtCore
 
 class farmfrenzypizzapartyGame(BasicGame):
     Name = "Farm Frenzy Pizza Party Support Plugin"

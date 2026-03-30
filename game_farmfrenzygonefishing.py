@@ -1,5 +1,5 @@
 from ..basic_game import BasicGame
-
+import qt6.QtCore
 
 class farmfrenzygonefishingGame(BasicGame):
     Name = "Farm Frenzy Gone Fishing Support Plugin"

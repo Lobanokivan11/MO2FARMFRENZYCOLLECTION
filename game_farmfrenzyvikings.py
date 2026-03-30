@@ -1,5 +1,5 @@
 from ..basic_game import BasicGame
-
+import qt6.QtCore
 
 class farmfrenzyvikingheroesGame(BasicGame):
     Name = "Farm Frenzy Viking Heroes Support Plugin"
