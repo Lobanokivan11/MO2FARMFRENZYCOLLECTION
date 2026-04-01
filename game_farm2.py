@@ -10,3 +10,4 @@ class farm2Game(BasicGame):
     GameShortName = "Farm Frenzy 2"
     GameBinary = "farm2.exe"
     GameDataPath = "Data"
+    GameNexusId = 9029
