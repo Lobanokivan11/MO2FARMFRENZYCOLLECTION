@@ -7,6 +7,6 @@ class farmfrenzygonefishingGame(BasicGame):
     Version = "1.0.0"
 
     GameName = "Farm Frenzy Gone Fishing"
-    GameShortName = "Farm Frenzy Gone Fishing"
+    GameShortName = "farmfrenzygonefishing"
     GameBinary = "FarmFrenzyGoneFishing.exe"
     GameDataPath = "Data"

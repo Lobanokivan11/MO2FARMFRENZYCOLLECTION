@@ -7,6 +7,6 @@ class farmfrenzy3arcticaGame(BasicGame):
     Version = "1.0.0"
 
     GameName = "Farm Frenzy 3 Ice Age"
-    GameShortName = "Farm Frenzy 3 Ice Age"
+    GameShortName = "farmfrenzy3iceage"
     GameBinary = "FarmFrenzy3_Arctica.exe"
     GameDataPath = "Data"

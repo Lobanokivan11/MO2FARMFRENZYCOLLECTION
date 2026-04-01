@@ -7,6 +7,6 @@ class farmfrenzyancientromeGame(BasicGame):
     Version = "1.0.0"
 
     GameName = "Farm Frenzy Ancient Rome"
-    GameShortName = "Farm Frenzy Ancient Rome"
+    GameShortName = "farmfrenzyancientrome"
     GameBinary = "FarmFrenzyAncientRome.exe"
     GameDataPath = "Data"
